@@ -45,7 +45,6 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import com.snapwork.weatherappdemo.presentation.UiState
-import com.snapwork.weatherappdemo.presentation.auth.AuthViewModel
 
 @Composable
 fun LoginScreen(

@@ -1,11 +1,11 @@
-package com.snapwork.weatherappdemo.presentation.auth
+package com.snapwork.weatherapp.presentation.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.snapwork.weatherappdemo.domain.usecase.GetSessionUseCase
-import com.snapwork.weatherappdemo.domain.usecase.LoginUseCase
-import com.snapwork.weatherappdemo.domain.usecase.LogoutUseCase
-import com.snapwork.weatherappdemo.domain.usecase.RegisterUseCase
+import com.snapwork.weatherapp.domain.usecase.GetSessionUseCase
+import com.snapwork.weatherapp.domain.usecase.LoginUseCase
+import com.snapwork.weatherapp.domain.usecase.LogoutUseCase
+import com.snapwork.weatherapp.domain.usecase.RegisterUseCase
 import com.snapwork.weatherappdemo.presentation.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

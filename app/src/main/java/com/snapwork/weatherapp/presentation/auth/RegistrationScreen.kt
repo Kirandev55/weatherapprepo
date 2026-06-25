@@ -1,4 +1,4 @@
-package com.snapwork.weatherappdemo.presentation.auth
+package com.snapwork.weatherapp.presentation.auth
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -44,6 +44,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
+import com.snapwork.weatherapp.presentation.auth.AuthViewModel
 import com.snapwork.weatherappdemo.presentation.UiState
 
 @Composable

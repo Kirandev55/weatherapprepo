@@ -1,10 +1,10 @@
-package com.snapwork.weatherapp.data.local.repository
+package com.snapwork.weatherapp.data.repository
 
 import com.snapwork.weatherapp.data.local.dao.UserDao
 import com.snapwork.weatherapp.data.local.datastore.SessionManager
 import com.snapwork.weatherapp.data.local.entity.UserEntity
 import com.snapwork.weatherapp.domain.repository.AuthRepository
-import com.snapwork.weatherapp.utils.HashUtils
+import com.snapwork.weatherappdemo.utils.HashUtils
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.snapwork.weatherapp.utils
+package com.snapwork.weatherappdemo.utils
 
 import java.security.MessageDigest
 

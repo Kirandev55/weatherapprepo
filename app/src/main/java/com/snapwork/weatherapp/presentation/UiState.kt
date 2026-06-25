@@ -1,4 +1,4 @@
-package com.snapwork.weatherapp.presentation.auth
+package com.snapwork.weatherappdemo.presentation
 
 sealed interface UiState<out T> {
     object Loading : UiState<Nothing>
